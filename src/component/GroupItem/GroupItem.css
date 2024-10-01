@@ -1,0 +1,484 @@
+/*=======================
+   This is commom part 
+=========================*/
+
+.groupcontainer {
+  width: 100%;
+  height: 100%;  
+  overflow-y: scroll !important;
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
+
+.grouptitleholder {
+  color: #423f3f;
+  font-weight: 100;
+  border-bottom: 1px solid black;
+  padding-top: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(122, 219, 223); 
+  padding: 10px;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0; 
+  z-index: 9;   
+  box-shadow: 0 20px 10px -20px rgba(0,0,0,0.85) inset, 
+              0-20px 10px -20px rgba(0,0,0,0.85) inset;
+}
+
+.titleheading{
+  font-size: 28px;
+  font-weight: 200;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.groupTitleIcon{
+ font-size: 24px;
+}
+
+.emptyGroup{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-weight: 500;
+  color: #b3a1a1;
+}
+/*=============================
+   This is commom part 
+==============================*/
+/* ============================
+         My Group Start List
+===============================*/
+
+.groupbox {
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  row-gap: 20px; 
+}
+
+.groupbox-inner { 
+  text-align: center;
+  margin-left: 5px !important;
+  width: 48%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+              rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+}
+
+.toppart{
+    
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  column-gap: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.group-leftItem{
+  width: 30%;
+}
+
+.groupimg{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+              rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.group-rightItem1{
+  margin-left:10px;
+  margin-top: 39px;
+  text-align: left;
+  width: 55%;
+}
+
+.group-rightItem2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.groupHeading{
+  color: #817676;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.groupmember{
+  color: #817676;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.groupbtn{
+  
+  display: flex;
+  padding: 0 0 ; 
+  column-gap: 20px;
+}
+
+.tect{
+    margin-left: 20px;
+}
+
+.dotIcon{
+    margin-top: 17px;
+    cursor: pointer;
+    width: 30px !important;
+    height: 30px;
+    font-size: 30px !important;
+     margin-bottom: 10px;
+}
+
+
+/* This is a Modal item List */
+
+.modal-img{
+    width: 100%;
+    height: 200px;
+}
+
+.viewgroupHeading{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.viewgroupHeadingRight{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+
+.adminButton{
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background-color: #3d7cce;
+  padding: 5px  10px;
+}
+
+.adminIcon{
+  cursor: pointer;
+  color: #3d7cce;
+  font-size: 24px;
+}
+
+.viewmember{
+  border-bottom: 1px solid rgb(68, 170, 173); 
+}
+
+.viewbtn.active {
+  background-color: #007bff; /* Example color */
+  color: white; /* Text color */
+}
+
+.viewbtn{
+  cursor: pointer;
+  border: none;
+  border: 1px solid rgb(24, 177, 131);
+  font-size: 14px;
+  padding: 7px 10px;
+}
+
+
+.viewgroupheading{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+.viewgroupRequest{
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  
+  column-gap: 20px;
+}
+
+
+.viewgroupRequestHeading{
+  width: 50%;
+  display: flex;
+  align-items: center; 
+  column-gap: 20px;
+}
+
+.viewgroupRequestbtn{
+  column-gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.viewgroupRequestPhoto{
+  border: 1px solid rgb(238, 218, 218);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.viewBtn1{
+  cursor: pointer;
+  color: hsl(138, 90%, 36%);
+  font-size: 24px;
+}
+
+.viewBtn2{
+  cursor: pointer;
+  color: hsl(14, 90%, 36%);
+  font-size: 22px;
+}
+
+
+/* all groupmember */
+
+.groupMemberPhoto{
+  width: 10px;
+  height: 10px;
+}
+
+/* member show list */
+
+.groupMember{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flsx{
+    display: flex;
+    column-gap: 20px;
+}
+
+.groupMemberPhoto{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+
+.groupMemberDeleteIcon{
+    cursor: pointer;
+    font-size: 30px;
+    color: red;
+}
+
+
+
+.groupMemberName{
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.totalMembers{
+  margin-top: 20px;
+}
+
+.banner-image{
+    position: relative;
+}
+
+
+.ProfilePhotoRound{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 5px rgb(236, 233, 230) solid;
+    top: 90px;
+    right: 5px;
+}
+
+
+
+/* =====================================
+         My Group Start List
+=======================================*/
+
+
+/*==============================
+      Others Group Start 
+===============================*/
+
+.otherGroup {
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    column-gap: 29px;
+    flex-wrap: wrap;   
+    row-gap: 20px; 
+  }
+  
+  
+  .otherGroupinner{
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: 5px !important;
+    width: 22%;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+
+  .othergroupimg{
+    padding: 6px;
+    border: 1px solid rgb(165, 160, 160);
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .OtherGroupAdmin{
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+ .otherBtn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+ }
+ 
+ .button-22.renderButton {
+    text-align: center !important;
+    display: block;
+  }
+ 
+
+.OtherAdmininfo{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.adminPhoto{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*===================
+       button 
+=====================*/
+
+.button-22 {
+  display: block;
+  text-align: center !important;
+  width: 220px;
+  appearance: button;
+  background-color: #2f64aa;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 12px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,
+  background .13s ease-in-out,
+  opacity .13s ease-in-out,
+  box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+/*===================
+    button List
+=====================*/
+/*===================
+   Fourth Modal Start 
+=====================*/
+
+
+
+.second-modal-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff4d4f;
+  }
+  
+  .modal-description {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .modal-buttons {
+    column-gap: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .confirm-btn {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #e63e3e;
+  }
+  
+  .close-btn {
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    background-color: #d9d9d9;
+  }
+  
+  /*===================
+   Fourth Modal Start 
+=====================*/
+

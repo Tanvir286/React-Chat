@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+ol,ul,li{
+  list-style: none;
+}
+
+.flexBox {
+  display: flex;
+}
+
+.first-half{
+  width: 50%;
+  margin-right: auto;
+}
+
+.second-half{
+  width: 50%;
+}
+
+.banner_img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;  
+  background-color: none;
+}
+
+.Registration_box{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shadow{  
+  border-radius: 20px;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: -20px 0 10px -15px rgba(0,0,0,0.45) inset, 
+               20px 0 10px -15px rgba(0,0,0,0.45) inset,
+               0 20px 10px -15px rgba(0,0,0,0.45) inset,
+               0 -20px 10px -15px rgba(0,0,0,0.45) inset;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  width: 440px;
+  margin:  10px 0 !important;
+}
+
+.title{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.eye{
+  position: relative !important;
+}
+
+.eye-icon{
+  position: absolute ;
+  right:8px;
+  top: 50%;  
+  transform: translateY(-50%);
+}
+
+.eye-icon2{
+  position: absolute ;
+  right:8px;
+  top: 50%;  
+  transform: translateY(-50%);
+}
+
+.term_input{
+  margin-right: 10px ;
+  margin-top: 10px;
+  color:#fff;
+}
+ 
+.line{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.spanbar{
+  width: 180px;
+  height: 1px;
+  background-color: black;
+}
+
+.auth{
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  column-gap: 17px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.auth_pic{
+  width: 30px;
+  height: 30px;
+}
+
+.auth_flex{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.582);
+  border-radius: 15px;
+}
+
+.errorBox{
+  width: 100%;
+}
+
+.load{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.subpart{
+  font-size: 18px;
+  text-align: center;
+  color: rgb(66, 66, 230);
+  margin-top: 10px;
+}
+
+.forgot_pass{
+  text-align: right;
+  font-size: 18px;
+}
+
+ 
+/*====================================
+          Submit Button   CSS
+=====================================*/
+
+.submit-button {
+  margin-top: 10px;
+  background-color: #7b99f1;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid  #dde8fe;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.submit-button:focus:not(:focus-visible),
+.submit-button:focus {
+  outline: 0;
+}
+
+.submit-button:hover {
+  background-color: #464fea;
+  border-color: #464fea;
+}
+
+.submit-button:focus {
+  background-color: #413FC5;
+  border-color: #3E3BBA;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.submit-button:active {
+  background-color: #3E3BBA;
+  background-image: none;
+  border-color: #3A38AE;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.submit-button:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.submit-button:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .55;
+  pointer-events: none;
+}
+
+/*====================================
+          Submit Button   CSS
+=====================================*/
+
+.Input_box{
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}

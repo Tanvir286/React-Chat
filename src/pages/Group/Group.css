@@ -1,0 +1,289 @@
+/* =============================
+    This is group part start 
+ ============================== */
+
+.Main{
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    column-gap: 25px;
+}
+  
+.left {
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 25%;
+    background-color: #f1f2f3;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  
+.right {
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 75%;
+    background-color: #f1f2f3;
+}
+
+.icon-left-one-friend {
+    font-size: 28px !important;
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+}
+
+.left-upper {
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.one{
+  width: 80%;
+}
+
+.two{
+  display: flex;
+  justify-content: end;
+  width: 20%;
+}
+
+.show {
+  z-index: 10;
+  position: absolute;
+  top: 35px;
+  right: -80px;
+  font-size: 20px;
+  background-color: #f9f9f9;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+
+.left-down {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.left-down:hover {
+  background-color: #e0e0e0;
+}
+
+.left-down-firstpart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.left-down-partone {
+  column-gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.left-two-partone h4 {
+  margin-left: 10px;
+}
+
+.icon-left-down {
+  font-size: 24px ;
+}
+
+.icon-left-down1 {
+  font-size: 22px ;
+}
+
+.left-down-title{
+  font-size: 20px;
+  font-weight: 200;
+}
+/* =============================
+    This is group part start 
+ ============================== */
+
+/*==============================
+    Group Part Modal Css Start 
+===============================*/
+
+.modal-title{
+  color: #817c7c;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 34px !important;
+}
+
+.modal-input{
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+.grouppartbtn{
+  padding: 0 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.completeBox{
+  text-align: center;
+}
+
+.completeImg{
+  
+  width: 150px;
+  height: 150px;
+}
+
+.complete-title{
+  font-size: 26px;
+  color: #524b4b;
+}
+
+/*==============================
+   Group Part Modal Css Start 
+===============================*/
+/*==============================
+     Modal button Start
+===============================*/
+
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+  word-break: break-word;
+  border: 0;
+}
+
+
+.button-35 {
+  background: #e62143;
+  border-radius: 999px;
+  box-shadow: #e62143 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-36 {
+  background: #e62143;
+  border-radius: 999px;
+  box-shadow: #e62143 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+  word-break: break-word;
+  border: 0;
+  margin-top: 10px;
+}
+
+/*============================
+      Modal button End
+=============================*/
+/*============================
+      Second  model  start
+=============================*/
+.second-modal-header {
+    text-align: center;
+    color: cadetblue;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .edit-group-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .edit-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .save-button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #007acc;
+  }
+  
+  /* Optional modal style for better layout */
+  .modal-box {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,568 @@
+/*============================
+   This is FriendPart Start 
+=============================*/
+.Main{
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  column-gap: 25px;
+}
+
+.left {
+  border-radius: 10px;
+  margin-left: 15px;
+  width: 25%;
+  background-color: #f1f2f3;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.right {
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 75%;
+  background-color: #f1f2f3;
+  
+}
+
+
+.left-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.icon-left-one {
+  font-size: 24px !important;
+  cursor: pointer;
+}
+
+.icon-left-two {
+  font-size: 24px !important;
+}
+
+
+.left-two {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.left-two:hover {
+  background-color: #e0e0e0;
+}
+
+
+.left-two-firstpart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.left-two-partone {
+    padding: 0 15px;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.left-two-partone h4 {
+  margin-left: 10px;
+}
+
+.icon-left-two {
+  font-size: 20px;
+}
+
+
+.left-two-icon{
+  color: #575857;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+.left-two-title{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+/*============================
+   This is FriendPart Start 
+=============================*/
+/*============================
+      This is General List 
+=============================*/
+
+.boxcontainer {
+    width: 100%;
+    height: 100%;  
+    overflow-y: scroll !important;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+.titleholder {
+    border-bottom: 1px solid black;
+    padding-top: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(122, 219, 223); 
+    padding: 10px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 20px 10px -20px rgba(0,0,0,0.85) inset, 0 -20px 10px -20px rgba(0,0,0,0.85) inset;
+}
+
+
+.box {
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 20px; 
+}
+
+
+.box-inner {
+   
+  text-align: center;
+  margin-left: 5px !important;
+  text-align: center;
+  width: 23.5%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 10px;
+  box-sizing: border-box; 
+}
+
+
+.box-img{
+  border-top-left-radius:10px ; 
+  border-top-right-radius:10px ; 
+  width: 100%;
+  height: 178px;
+}
+
+
+.box-username{
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+
+.empty{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-weight: 500;
+  color: #b3a1a1;
+}
+
+
+.icon-side{
+  margin-right: 5px;
+}
+
+/* ==============================
+     This is General List
+================================*/
+
+/* ==============================
+     This is Search List
+================================*/
+
+/* This is input part */
+
+.search{
+  position: relative;
+  padding: 10px;
+}
+ 
+.search-box{
+  margin-top: 10px;
+  background-color: #d8dadf;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 45px;
+  font-size: 18px;
+}
+
+.search-icon{
+  position: absolute;
+  top: 32px;
+  left: 25px;
+  font-size: 20px;
+}
+
+.search-icon2{
+  position: absolute;
+  top: 32px;
+  right: 25px;
+  font-size: 20px;
+}
+
+.search-box::placeholder{
+  font-size: 18px;
+}
+
+/* ==============================
+     This is Search List
+================================*/
+/* ==============================
+    This is UseList area Part
+================================*/
+
+.mutal{
+  display: flex; 
+  column-gap: 10px;
+  margin-left: 16px;
+  text-align: left;
+  align-items: center;
+}
+
+.mutaul-img1{
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
+
+.mutaul-img2{
+  margin-left: -3px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+/* =============================delete part */
+.mutal-head{
+  font-size: 10px !important;
+}
+/* ==============================
+    This is UseList area Part
+================================*/
+/* ==============================
+  This is FriendList Area start
+================================*/
+
+/* =============================delete part */
+
+.main-item{
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex !important;
+    column-gap: 10px;
+    flex-direction: column;
+}
+
+.main-item2{
+  width: 50%;
+ 
+}
+
+.item-list {
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out;
+    border-bottom: 1px solid #16a085;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-top:3px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 30px;
+}
+
+.item-list:first-child{
+    margin-top:1px;
+}
+
+.item-list:last-child{
+    border-bottom: 0 ;
+}
+
+.item-list:hover {
+    box-shadow: 0 0 40px #16a085;
+    border-radius: 30px;
+}
+
+
+.logo {
+    margin-top: 3px;
+    height: 50px;
+    width: 50px;
+}
+/* delete part */
+
+/* ===========================
+    This is scrollBar Part
+ ============================*/
+
+.boxcontainer::-webkit-scrollbar {
+    width: 12px;
+}
+
+.boxcontainer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px; 
+}
+
+.boxcontainer::-webkit-scrollbar-thumb {
+    background-color: #2A629A; 
+    border-radius: 10px; 
+    border: 3px solid #f1f1f1;
+}
+
+.boxcontainer {
+    scrollbar-width: thin;
+    scrollbar-color: #2A629A #f1f1f1;
+}
+
+
+/* ===========================
+    This is scrollBar Part
+ ============================*/
+/* ===========================
+    This is button Part
+ ============================*/
+ 
+.btn-part{
+ padding: 0px 10px;
+}
+
+.btn-part2{
+   padding: 0px 10px;
+}
+
+.button-54 {
+   width: 100%;
+   margin-top: 5px;
+   margin-bottom: 14px;
+   border-radius: 10px;
+   margin-right: 10px;
+   font-size: 14px;
+   letter-spacing: 2px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color:  #33b249;
+   cursor: pointer;
+   padding: 5px 5px;
+   border: 1px solid;
+   position: relative;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+.button-54:disabled {
+  color: #4e4848; /* Only if you still want to indicate a disabled state with color */
+}
+
+.button-55 {
+  width: 100%;
+   margin-top: 5px;
+   margin-bottom: 7px;
+   border-radius: 10px;
+   margin-right: 10px;
+   font-size: 14px;
+   letter-spacing: 2px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color:  #33b249;
+   cursor: pointer;
+   border: 1px solid;
+   padding: 5px 5px;
+   position: relative;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ .button-56 {
+   width: 100%;
+   margin-top: 5px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   margin-right: 10px;
+   font-size: 14px;
+   letter-spacing: 2px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color:  #33b249;
+   cursor: pointer;
+   border: 1px solid;
+   padding: 5px 5px;
+   position: relative;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+/* Extra Feature Part button */
+ 
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 10px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 10px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.button-24 {
+  margin-right: 4px;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+  
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+  
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+  
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+  
+/* Extra Feature Part button *
+/* ===========================
+      This is button Part
+ ============================*/
+
+/* =======================================================
+         This is Group List part here  and  my group
+======================================================= */
+
+.modal-flex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.error-box{
+  width: 83%;
+  margin-bottom: 10px;
+}
+
+.progress-bar{
+  text-align: center;
+}
+
+.admin-text{
+  font-size: 14px;
+  color:#538392;
+}
